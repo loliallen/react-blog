@@ -1,0 +1,27 @@
+{
+  "name": "react-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loliallen/react-blog.git"
+  },
+  "author": "loliallen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loliallen/react-blog/issues"
+  },
+  "homepage": "https://github.com/loliallen/react-blog#readme",
+  "dependencies": {
+    "concurrently": "^5.1.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "nodemon": "^2.0.2"
+  }
+}
